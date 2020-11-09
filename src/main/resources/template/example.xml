@@ -2,11 +2,11 @@
 <workbook>
     <worksheet sheetIdx="0">
         <section startRow="0" endRow="7"></section>
-        <loop startRow="8" endRow="8" items="employees" var="employee" varType="com.Employee">
-<!--            ?????-->
+        <loop startRow="8" endRow="8" items="employees" var="employee" varType="com.entity.Employee">
             <section startRow="8" endRow="8">
                 <mapping cell="A8">employee.name</mapping>
                 <mapping cell="B8">employee.age</mapping>
+                <mapping cell="C8">employee.birthDate</mapping>
                 <mapping cell="D8">employee.payment</mapping>
                 <mapping cell="E8">employee.bonus</mapping>
             </section>
